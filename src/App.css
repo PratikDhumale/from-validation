@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background for better contrast */
+  height: 100vh; /* Full height */
+}
+
+.form-container {
+  width: 100%;
+  max-width: 1200px; /* Adjust max width for desktop */
+  margin: auto; /* Center horizontally */
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-container {
+    padding: 1rem;
+    max-width: 95%; /* Smaller width for mobile */
+  }
+}
